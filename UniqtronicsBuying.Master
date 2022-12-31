@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UniqtronicsBuying.master.cs" Inherits="UNIQTRONICS_BUYING.UniqtronicsBuying" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>UNIQTRONICS BUYING</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+     <link href="Content/bootstrap-datepicker.css" rel="stylesheet" />
+     <link href="Content/bootstrap-datepicker.min.css" rel="stylesheet" />
+     <link href="Content/bootstrap-datepicker.standalone.css" rel="stylesheet" />
+     <link href="Content/bootstrap-datepicker.standalone.min.css" rel="stylesheet" />
+     <link href="Content/bootstrap-datepicker3.css" rel="stylesheet" />
+     <link href="Content/bootstrap-datepicker3.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-datepicker3.standalone.css" rel="stylesheet" />
+    <link href="Content/bootstrap-datepicker3.standalone.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <link href="Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-dialog.css" rel="stylesheet" />
+    <link href="Content/bootstrap-grid.css" rel="stylesheet" />
+    <link href="Content/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-grid.rtl.css" rel="stylesheet" />
+    <link href="Content/bootstrap-grid.rtl.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="Content/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-reboot.rtl.css" rel="stylesheet" />
+    <link href="Content/bootstrap-reboot.rtl.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-utilities.css" rel="stylesheet" />
+    <link href="Content/bootstrap-utilities.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-utilities.rtl.css" rel="stylesheet" />
+    <link href="Content/bootstrap-utilities.rtl.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="Content/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="Content/daterangepicker.css" rel="stylesheet" />
+    <link href="Content/ui-bootstrap-csp.css" rel="stylesheet" />
+    <link href="Content/fontawesome.css" rel="stylesheet" />
+    <link href="Content/fontawesome.min.css" rel="stylesheet" />
+    <link href="Content/regular.css" rel="stylesheet" />
+    <link href="Content/solid.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="w3-container">
+            <div class="w3-bar w3-border w3-light-grey">
+                <a href="#" class="w3-bar-item w3-button"></a>
+                        <a href="#" class="w3-bar-item w3-button">Register</a>
+                        <a href="#" class="w3-bar-item w3-button w3-green w3-right">login</a>
+                </div>
+</div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
